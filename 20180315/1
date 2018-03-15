@@ -1,7 +1,7 @@
 <!doctype html> <!-- globalEvent.html -->
 <html lang="ko">
 <head>
-   <meta charset="utf-8"/>
+   <meta charset="utf-8"/><meta name="viewport" content="width=device-widthm initial-scale=1"/>
    <script>
     function eventonclick() {
 document.getElementById("id_1").innerHTML="동해물과 백두산이 마르고 닳도록 
@@ -25,6 +25,7 @@ document.getElementById("id_1").innerHTML="동해물과 백두산이 마르고 �
 <title>타이틀 표제</title>
 </head>
 <body>
+	<h4> 애국가 </h4>
  <p onclick="eventonclick()">1절</p>
  <p onclick="eventonclick()">2절</p>
  <p onclick="eventonclick()">3절</p>
@@ -32,3 +33,4 @@ document.getElementById("id_1").innerHTML="동해물과 백두산이 마르고 �
  <p id="id_1">메시지표시</p>
 </body>
 </html>
+
